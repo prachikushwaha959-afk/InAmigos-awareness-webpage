@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" role="img" aria-labelledby="title desc">
+  <title id="title">A community garden</title>
+  <desc id="desc">Three neighbours tend a garden together, surrounded by plants, hills and a warm sun.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#edf0d9"/><stop offset="1" stop-color="#b7d1a0"/></linearGradient>
+    <linearGradient id="ground" x1="0" x2="1"><stop stop-color="#9ab47b"/><stop offset="1" stop-color="#627e58"/></linearGradient>
+    <clipPath id="blob"><path d="M270 20c77-5 135 29 187 89 42 48 60 111 39 178-24 77-79 108-158 128-72 18-145 12-211-24-65-35-109-87-108-160C20 151 52 88 117 51 164 24 214 23 270 20Z"/></clipPath>
+  </defs>
+  <path d="M270 20c77-5 135 29 187 89 42 48 60 111 39 178-24 77-79 108-158 128-72 18-145 12-211-24-65-35-109-87-108-160C20 151 52 88 117 51 164 24 214 23 270 20Z" fill="url(#sky)"/>
+  <g clip-path="url(#blob)">
+    <circle cx="398" cy="96" r="46" fill="#e6b658"/>
+    <path d="M-20 257c74-82 145-92 216-49 49 30 91 36 134 4 69-50 153-43 232 27v221H-20Z" fill="#c4d6a7"/>
+    <path d="M-13 310c77-58 138-53 194-13 59 43 103 43 157 8 58-37 124-26 204 17v143H-13Z" fill="url(#ground)"/>
+    <path d="M68 330c61-15 98-2 148 18 40 16 99 14 142-3 50-20 96-19 163-6v67H68Z" fill="#4d6d4d" opacity=".46"/>
+    <!-- Left neighbour -->
+    <circle cx="140" cy="177" r="23" fill="#b56d4d"/>
+    <path d="M119 176c0-19 11-31 26-31 17 0 25 14 21 32-7-7-14-11-24-11-8 0-14 4-23 10Z" fill="#263c34"/>
+    <path d="M122 202c8-8 31-8 39 0l15 76-66 1Z" fill="#d87954"/>
+    <path d="m123 216-35 37 11 10 39-31m24-16 35 29-9 11-42-22" fill="none" stroke="#b56d4d" stroke-linecap="round" stroke-width="12"/>
+    <path d="m131 276-8 58m27-58 9 58" stroke="#34463c" stroke-linecap="round" stroke-width="14"/>
+    <path d="M116 337h19m18 0h18" stroke="#f1e7cc" stroke-linecap="round" stroke-width="8"/>
+    <!-- Centre neighbour -->
+    <circle cx="261" cy="153" r="25" fill="#d99b68"/>
+    <path d="M237 150c-3-24 13-39 31-36 18 3 26 17 16 37-9-7-16-10-25-10-8 0-14 3-22 9Z" fill="#4a342c"/>
+    <path d="M237 181c12-11 41-9 50 3l12 91-76 1Z" fill="#f3d17f"/>
+    <path d="m239 198-37 37m75-34 22 33" fill="none" stroke="#d99b68" stroke-linecap="round" stroke-width="13"/>
+    <path d="m247 272-12 66m30-66 15 66" stroke="#32493a" stroke-linecap="round" stroke-width="16"/>
+    <path d="M226 341h22m25 0h22" stroke="#e7e1cc" stroke-linecap="round" stroke-width="8"/>
+    <!-- Right neighbour -->
+    <circle cx="365" cy="193" r="21" fill="#e1aa7a"/>
+    <path d="M345 191c0-18 9-29 24-29 15 0 23 12 18 30-8-7-14-10-22-9-6 0-13 4-20 8Z" fill="#302f2b"/>
+    <path d="M345 216c9-9 31-8 39 1l18 70h-69Z" fill="#8c77a0"/>
+    <path d="m350 230-35 25m67-20 27 17" fill="none" stroke="#e1aa7a" stroke-linecap="round" stroke-width="12"/>
+    <path d="m355 284-9 54m27-54 12 54" stroke="#35483c" stroke-linecap="round" stroke-width="14"/>
+    <path d="M336 342h19m20 0h18" stroke="#eee4ce" stroke-linecap="round" stroke-width="8"/>
+    <!-- Garden beds -->
+    <path d="M93 352c39-18 84-19 134-3l-8 35H90Z" fill="#9a6149"/>
+    <path d="M290 357c45-23 90-22 137-4l-8 32H286Z" fill="#9a6149"/>
+    <path d="M129 349v-29m0 11c-20-4-25-19-24-28 15 1 27 10 25 28m1-1c12-18 26-16 32-11-5 13-16 19-32 15" fill="none" stroke="#43684a" stroke-linecap="round" stroke-width="5"/>
+    <path d="M344 355v-31m0 13c-18-5-20-18-19-26 12 2 22 10 20 27m0-2c12-17 23-15 29-10-5 12-15 18-29 14" fill="none" stroke="#43684a" stroke-linecap="round" stroke-width="5"/>
+    <!-- Small flowers and birds -->
+    <path d="m89 109 8 5m-8 0 8-5m-8 0h8m-4-4v8" stroke="#fff9df" stroke-linecap="round" stroke-width="2"/>
+    <path d="m331 119 6 4m-6 0 6-4m-6 0h6m-3-3v6" stroke="#fff9df" stroke-linecap="round" stroke-width="2"/>
+    <path d="M176 105q8-9 16 0m-16 0q8-9 16 0" fill="none" stroke="#597765" stroke-linecap="round" stroke-width="2"/>
+    <path d="M290 77q7-8 14 0m-14 0q7-8 14 0" fill="none" stroke="#597765" stroke-linecap="round" stroke-width="2"/>
+  </g>
+  <path d="M454 304c13-27 28-39 44-43-2 19-14 35-44 43Zm7 10c22-15 39-18 55-13-10 17-28 23-55 13Z" fill="#c7e57b" opacity=".83"/>
+  <path d="M48 293c14-23 28-34 44-36-3 19-17 34-44 36Zm0 12c22-13 38-15 53-9-11 16-29 20-53 9Z" fill="#c7e57b" opacity=".75"/>
+</svg>
